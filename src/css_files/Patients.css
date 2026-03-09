@@ -1,0 +1,110 @@
+body {
+  overflow-x: hidden;
+}
+
+.patients-content-1 {
+  display: flex;
+}
+
+.patient-full-content {
+  width: 100%;
+}
+
+.patient-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.patient-table {
+  min-width: 900px;
+}
+
+.patient-col,
+.patient-row {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.patient-col h3,
+.patient-row p,
+.patient-row input {
+  width: 150px;
+  flex-shrink: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.checkbox {
+  height: 18px;
+  width: 40px;
+}
+
+.patient-row {
+  border-bottom: 1px solid #eee;
+}
+
+.isTestCompleted {
+  background-color: #00640087;
+}
+
+.address {
+  outline: none;
+  padding: 0.3rem;
+  font-size: 1rem;
+  width: 150px;
+  resize: none;
+  background-color: white;
+  border: none;
+}
+
+.address-active {
+  background-color: #00640087;
+  color: white;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.search-patient {
+  border: none;
+  width: 200px;
+  outline: none;
+}
+
+.search-btn {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 450px) {
+  .form-header {
+    flex-direction: column;
+  }
+
+  .input-area {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .patients-content-1 {
+    display: none;
+  }
+}
+
+@media (min-width: 901px) {
+  .patients-content-2 {
+    display: none;
+  }
+}
