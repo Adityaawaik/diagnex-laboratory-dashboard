@@ -1,15 +1,43 @@
 # React + Vite
 
-# <a href="https://adityaawaik.github.io/diagnex-laboratory-dashboard/">Check here</a>
+# 🧪 Diagnex Laboratory Dashboard
 
-## 🚀 Running the Project Locally
+**Diagnex Laboratory Dashboard** is a clean and modern frontend web application that provides an interactive dashboard–style interface related to laboratory operations.  
+It displays key components of lab-related workflows such as reports, charts, resource information, and quickly accessible insights — ideal for lab staff, managers, or stakeholders looking to visualize lab activity.
 
-Follow the steps below to run the **Diagnex Laboratory Dashboard** on your local machine.
+## 👉 Live Demo: <a href='https://adityaawaik.github.io/diagnex-laboratory-dashboard'> Click here </a>
 
-### 1. Clone the Repository
+---
 
-Open your terminal and clone the repository using the following command:
+## 📌 Project Overview
 
+This project is designed as a **responsive and user-friendly dashboard interface** for a diagnostic or laboratory context.  
+It aims to present critical information quickly and visually, making it easier for users to understand the current state of laboratory operations and workflows.
+
+The dashboard was built using modern frontend technologies with a focus on clean UI, responsive layout, and modular components.
+
+---
+
+## ✨ Features
+
+- 📊 **Dashboard View:** Centralized overview of lab metrics and interface elements  
+- 🧪 **Visual Components:** Cards, charts, and UI elements to organize information  
+- 🖥️ **Responsive Design:** Works across devices and screen sizes  
+- 🧰 **Modular Components:** Easy to understand and maintain  
+- 🎨 **Clean UI:** Professional design ideal for laboratory or healthcare interfaces
+
+---
+
+## 🛠 Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **React.js**
+- **Tailwind CSS**
+
+---
+### 1. Clone the project
 ```
 git clone https://github.com/adityaawaik/diagnex-laboratory-dashboard.git
 ```
